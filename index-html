@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Informazioni sui finanziamenti</title>
+<style>
+body{margin:0;font-family:Arial;background:#f3f6fa;color:#263447;line-height:1.6}
+header,footer{background:#05294d;color:white;padding:22px 7%}
+nav a{color:white;margin-right:15px;text-decoration:none}
+.hero{background:linear-gradient(120deg,#05294d,#073b70);color:white;padding:65px 7%}
+h1{font-size:38px}
+.hero p{max-width:650px}
+main{max-width:950px;margin:auto;padding:35px 7%}
+h2,h3{color:#073b70}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px}
+.card{background:white;padding:22px;border-radius:10px;border:1px solid #ddd}
+.notice{background:#fff8e9;padding:18px;border-left:4px solid #d9b56d}
+</style>
+</head>
+<body>
+<header>
+<strong>INFORMAZIONI FINANZIARIE</strong>
+<nav>
+<a href="#home">Home</a>
+<a href="#prestiti">Finanziamenti</a>
+<a href="#contatti">Contatti</a>
+</nav>
+</header>
+<section class="hero" id="home">
+<h1>Informazioni sulle possibilità di finanziamento</h1>
+<p>Scopri le informazioni generali sui prestiti e sulle soluzioni di credito disponibili in Italia.</p>
+</section>
+<main>
+<h2>Benvenuti</h2>
+<p>Questo sito offre informazioni generali per aiutare gli utenti a conoscere alcune possibilità di finanziamento e valutare le condizioni prima di rivolgersi a un intermediario autorizzato.</p>
+<section id="prestiti">
+<h2>Tipologie di finanziamento</h2>
+<div class="cards">
+<div class="card">
+<h3>Prestito personale</h3>
+<p>Informazioni sui finanziamenti destinati alle esigenze personali.</p>
+</div>
+<div class="card">
+<h3>Credito per progetti</h3>
+<p>Soluzioni che possono essere valutate per progetti e spese specifiche.</p>
+</div>
+<div class="card">
+<h3>Consolidamento debiti</h3>
+<p>Informazioni sulla possibilità di riunire più impegni finanziari.</p>
+</div>
+</div>
+</section>
+<h2>Come funziona</h2>
+<p>È importante confrontare il TAN, il TAEG, la durata, le rate e tutte le condizioni contrattuali. Ogni richiesta è soggetta alla valutazione dell'ente finanziatore.</p>
+<div class="notice">
+Questo sito non è una banca, non rappresenta istituti di credito e non garantisce l'approvazione di prestiti. Non inviare password, PIN o codici OTP.
+</div>
+<section id="contatti">
+<h2>Contatti</h2>
+<p>Le informazioni legali e i recapiti dell'attività dovranno essere inseriti prima di un eventuale utilizzo professionale.</p>
+</section>
+</main>
+<footer>
+Informazioni finanziarie — © 2026
+</footer>
+</body>
+</html>
