@@ -10,13 +10,155 @@
 <title>Kredit Finanz – Finanzierung in Deutschland</title>
 
 <style>
-:root {
-  --blue: #073b70;
-  --dark: #05294d;
-  --gold: #d9b56d;
-  --light: #f3f6fa;
-  --text: #263447;
-  --white: #ffffff;
+
+/* ===== DESIGN ELEGANT ===== */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f3f6fa;
+  color: #263447;
+  line-height: 1.8;
+  letter-spacing: 0.2px;
+}
+
+header {
+  background: #ffffff;
+  padding: 24px 7%;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.06);
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #05294d;
+}
+
+nav {
+  gap: 25px;
+}
+
+nav a {
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #d9b56d;
+}
+
+.hero {
+  padding: 95px 7%;
+  background: linear-gradient(
+    135deg,
+    #05294d,
+    #073b70
+  );
+  color: white;
+}
+
+.hero h1 {
+  max-width: 850px;
+  font-size: clamp(32px, 5vw, 52px);
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.hero p {
+  max-width: 750px;
+  font-size: 18px;
+  color: #e4edf5;
+}
+
+.btn {
+  border-radius: 7px;
+  padding: 15px 27px;
+  font-weight: bold;
+  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+}
+
+.btn:hover {
+  background: #e8c982;
+  transform: translateY(-2px);
+}
+
+main {
+  max-width: 1120px;
+  padding: 65px 6%;
+}
+
+section {
+  margin-bottom: 65px;
+}
+
+h2 {
+  font-size: 29px;
+  font-weight: 750;
+  margin-bottom: 22px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 13px;
+  border: 1px solid #e7edf3;
+  box-shadow: 0 8px 25px rgba(5,41,77,0.06);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 13px 30px rgba(5,41,77,0.10);
+}
+
+.grid {
+  gap: 24px;
+}
+
+.notice {
+  border-radius: 9px;
+  padding: 24px;
+}
+
+table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+td {
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background: #f6f8fb;
+}
+
+footer {
+  padding: 45px 7%;
+  background: #05294d;
+  line-height: 1.9;
+}
+
+@media(max-width:600px) {
+  header {
+    padding: 20px 5%;
+  }
+
+  .hero {
+    padding: 65px 6%;
+  }
+
+  .card {
+    padding: 22px;
+  }
+
+  nav {
+    gap: 14px;
+  }
+}
+
 }
 
 * {
